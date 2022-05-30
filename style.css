@@ -1,0 +1,64 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.toolbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.toolbox h1 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #6070ff;
+}
+
+.toolbox img {
+  width: 18px;
+  height: 12px;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./images/header-shapes\mobile.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.principal h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.principal p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.principal h3 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.social {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 0;
+  width: 160px;
+}
