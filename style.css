@@ -23,12 +23,43 @@
   height: 12px;
 }
 
+a:hover {
+  text-decoration: none;
+  color: green;
+}
 .principal {
-  display: flex;
+/* background-color: blue; */
+  /*display: flex;
   flex-direction: column;
-  background-image: url(./images/header-shapes\mobile.png);
+  background-image: url(./images/header-shapes.png);
   background-repeat: no-repeat;
   background-position: center top;
+  padding: 0 24px;*/
+  background-image: url(./images/header-shapes.png);
+  position: absolute; 
+  width: 462px; 
+  height: 587.15px; 
+  top: 104px; 
+}
+.intro{
+margin-top: 114px;
+margin-bottom: 0;
+padding: 0 24px;
+
+}
+.paragraph{
+padding: 0 24px;
+margin-top: 12px;
+height: 146px;
+width: 327px;
+/* background-color: blue; */
+margin-bottom: 0;
+}
+.connect {
+color: #7F8CFF;
+margin-top: 12px;
+margin-bottom:0;
+padding: 0 24px;
 }
 
 .principal h2 {
@@ -61,4 +92,6 @@
   justify-content: space-between;
   padding: 0;
   width: 160px;
+  margin-top: 12px;
+  padding: 0 24px;
 }
