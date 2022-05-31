@@ -22,7 +22,9 @@
   width: 18px;
   height: 12px;
 }
-
+.mylogo {
+  text-decoration: none;
+}
 a:hover {
   text-decoration: none;
   color: green;
