@@ -25,6 +25,7 @@
 
 .mylogo {
   text-decoration: none;
+  margin-top: 12px;
 }
 
 a:hover {
@@ -34,10 +35,12 @@ a:hover {
 
 .principal {
   background-image: url(./images/header-shapes.png);
-  position: absolute;
-  width: 462px;
-  height: 587.15px;
-  top: 104px;
+  width: 360px;
+  top: 120px;
+  gap: 88px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  margin-bottom: 80px;
 }
 
 .intro {
@@ -92,4 +95,231 @@ a:hover {
   width: 160px;
   margin-top: 12px;
   padding: 0 24px;
+}
+
+.skills {
+  list-style: none;
+  display: flex;
+  gap: 139px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 88px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dfe1e6;
+  width: 327px;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+.works {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 12px;
+}
+
+.tags {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 8px;
+}
+
+.tags li {
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 4px 12px;
+  color: #6070ff;
+}
+
+button {
+  color: #6070ff;
+  background-color: white;
+  border-radius: 8px;
+  padding: 12px;
+  align-self: flex-start;
+}
+
+.principal-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding-top: 120px;
+}
+
+.about-up {
+  width: 360px;
+  top: 120px;
+  gap: 88px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+}
+
+.intro1 {
+  height: 101px;
+  width: 327px;
+  left: 0;
+  top: 0;
+  border-radius: nullpx;
+}
+
+.contactme {
+  border-top-left-radius: 80px 80px;
+  border: 1px solid red;
+  background: #6070ff;
+  background-image: url(./images/contactme.svg);
+  height: 659px;
+  width: 310px;
+  top: 5410px;
+  padding: 114px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-left: 0;
+  align-items: center;
+}
+
+.contactme h2 {
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.contactme p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
+.aboutMe1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 88px;
+  width: 100%;
+}
+
+.aboutMeCt1 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dfe1e6;
+  width: 327px;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+.aboutMeCt1 .lConnect {
+  font-weight: 500;
+  color: var(--primary-B300);
+}
+
+.aboutMeCt1 ul li {
+  list-style-type: none;
+  padding: 0 10px;
+  gap: 12px;
+}
+
+.aboutMeCt1 ul {
+  display: flex;
+  align-items: center;
+}
+
+textarea {
+  color: #b3abc5;
+  height: 150px;
+  width: 280px;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+}
+
+input {
+  height: 48px;
+  width: 280px;
+  left: 0;
+  top: 0;
+  border-radius: 8px;
+  gap: 12px;
+}
+
+.shape-home {
+  width: 134px;
+  height: 5px;
+  bottom: 8px;
+  left: 120px;
+  top: 21px;
+  border-radius: 10px;
+}
+
+.languages {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-self: flex-start;
+  gap: 12px;
+  padding-bottom: 12px;
+}
+
+.languages span {
+  display: flex;
+  margin-right: 135px;
+  height: 24px;
+  width: 215px;
+  left: 76px;
+  top: 21px;
+  border-radius: nullpx;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.technologies {
+  display: flex;
+  margin-left: 0;
+  align-self: flex-start;
+  width: 282px;
+  background-color: #f7f7f9;
+  gap: 12px;
+  align-items: center;
+}
+
+.getbutton {
+  color: #6070ff;
+  background-color: white;
+  border-radius: 8px;
+  padding: 12px;
+  align-self: flex-start;
+  margin-left: 30px;
+}
+
+.buttonCt {
+  height: 72px;
+  padding: 24px 12px 12px 0;
+}
+.buttonCt a {
+  letter-spacing: 3%;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 12px 12px;
+  color: var(--primary-500);
+  border: 1px solid var(--primary-400);
+  border-radius: 8px;
+  text-decoration: none;
 }
