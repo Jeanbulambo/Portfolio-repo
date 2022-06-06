@@ -127,7 +127,7 @@ a:hover {
 }
 
 .tags {
-  display: flex;
+  /* display: flex; */
   list-style: none;
   padding: 0;
   gap: 8px;
@@ -138,6 +138,7 @@ a:hover {
   border-radius: 8px;
   padding: 4px 12px;
   color: #6070ff;
+  float: left;
 }
 
 button {
