@@ -2,6 +2,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+ul{
+  list-style: none;
+}
+
 .toolbox {
   display: flex;
   justify-content: space-between;
@@ -186,6 +190,10 @@ button {
   gap: 12px;
   margin-left: 0;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .contactme h2 {
@@ -308,4 +316,18 @@ input {
   padding: 12px;
   align-self: flex-start;
   margin-left: 30px;
+}
+
+.f-list{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
