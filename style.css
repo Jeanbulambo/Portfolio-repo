@@ -2,6 +2,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+ul{
+  list-style: none;
+}
+
 .toolbox {
   display: flex;
   justify-content: space-between;
@@ -187,6 +191,10 @@ button {
   gap: 12px;
   margin-left: 0;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .contactme h2 {
@@ -311,6 +319,7 @@ input {
   margin-left: 30px;
 }
 
+<<<<<<< HEAD
 form.form-example {
     display: table;
 }
@@ -328,3 +337,18 @@ border-radius: nullpx;
 
 }
 
+=======
+.f-list{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+>>>>>>> 64c2313964a94412c41cb15546f4ba681cd983f5
