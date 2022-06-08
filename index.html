@@ -166,14 +166,23 @@
            <section class="contactme">
                              <h2>Contact me</h2>
                             <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-                       <form method="post" action="test.php">
-                            <P>
-                              <input type="text" name="username" id="username" placeholder="Yeremias" ><br><br>
-                               <input type="email" name="gmail" id="gmail" placeholder="natajayanj14@gmail.com"><br><br>
-                              <textarea name="comments" id="comments">Write your message here</textarea>
-                              </P>
+                       <form action="https://formspree.io/f/xzbowdww" method="post" class="myform">
+                              <ul class="f-list">
+                                <li >
+                                    <input type="text" id="name" name="user_name" placeholder="Yeremias" maxlength="30" required>
+                                </li>
+                                <li>
+                                    <input type="email" id="mail" name="user_email" placeholder="natajayanj14@gmail.com" required>
+                                </li>
+                                <li>
+                                    <textarea id="msg" name="user_message"  maxlength="500" required>Write your message here.</textarea>
+                                </li>
+                                <li>
+                                    <button type="submit" class="getbutton">Get in touch</button>
+                                </li>
+                             </ul>
                         </form>
-                       <button type="button" value="Submit">Get it touch</button>
+                       
                        <img class="shape-home" src="./images/Shape.png" alt="shape">
            </section>
 </div>

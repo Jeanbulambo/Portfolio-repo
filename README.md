@@ -10,7 +10,7 @@
 - HTML
 - CSS
 - Node.js
-- Webhint, Stylelint
+- Webhint,Stylelint
 
 ## Getting Started
 
@@ -42,7 +42,7 @@ Give a ⭐️ if you like this project!
 
 - Hat tip to anyone whose code was used
 - Inspiration
-- etc
+- etc.
 
 ## 📝 License
 

@@ -2,6 +2,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+ul {
+  list-style: none;
+}
+
 .toolbox {
   display: flex;
   justify-content: space-between;
@@ -127,7 +131,7 @@ a:hover {
 }
 
 .tags {
-  display: flex;
+  /* display: flex; */
   list-style: none;
   padding: 0;
   gap: 8px;
@@ -138,6 +142,7 @@ a:hover {
   border-radius: 8px;
   padding: 4px 12px;
   color: #6070ff;
+  float: left;
 }
 
 button {
@@ -173,18 +178,20 @@ button {
 
 .contactme {
   border-top-left-radius: 80px 80px;
-  border: 1px solid red;
   background: #6070ff;
   background-image: url(./images/contactme.svg);
-  height: 659px;
+  background-position: right 0 top 0;
+  background-repeat: no-repeat;
+  height: 750px;
   width: 310px;
   top: 5410px;
-  padding: 114px 24px;
+  padding: 114px 24px 0 24px;
   display: flex;
   flex-direction: column;
   gap: 12px;
   margin-left: 0;
   align-items: center;
+  justify-content: center;
 }
 
 .contactme h2 {
@@ -256,12 +263,13 @@ input {
   top: 0;
   border-radius: 8px;
   gap: 12px;
+  outline: none;
+  border: none;
 }
 
 .shape-home {
   width: 134px;
-  height: 5px;
-  bottom: 8px;
+  height: 2px;
   left: 120px;
   top: 21px;
   border-radius: 10px;
@@ -306,5 +314,27 @@ input {
   border-radius: 8px;
   padding: 12px;
   align-self: flex-start;
-  margin-left: 30px;
+  outline: none;
+  border: none;
+}
+
+.f-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 35px;
+  margin-bottom: 10px;
+}
+
+.getbutton:hover {
+  background-color: #6070ff;
+  color: #fff;
 }
