@@ -310,3 +310,21 @@ input {
   align-self: flex-start;
   margin-left: 30px;
 }
+
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+.submit-button {
+height: 24px;
+width: 108px;
+left: 16px;
+top: 12px;
+border-radius: nullpx;
+
+}
+
