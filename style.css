@@ -6,14 +6,14 @@ ul {
   list-style: none;
 }
 
-.toolbox {
+.header-mobile {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
 }
 
-.toolbox h1 {
+.header-mobile h1 {
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -22,9 +22,13 @@ ul {
   color: #6070ff;
 }
 
-.toolbox img {
+.header-mobile img {
   width: 18px;
   height: 12px;
+}
+
+.header-desktop {
+  display: none;
 }
 
 .mylogo {
@@ -330,4 +334,127 @@ form {
 
 .getbutton:hover {
   background-color: red;
+}
+
+/* RESPONSIVENESS */
+
+/* mobile landscape */
+
+@media screen and (min-width: 768px) {
+/* body {
+background-color: #E5E5E5;
+} */
+
+.headpage {
+  height: 916px;
+  width: 1440px;
+  left: 0px;
+  top: 1px;
+  border-radius: 2px 2xp 12px 2px;
+  background: #FFFFFF;
+}
+.header-desktop {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  margin-right: 90px;
+  margin-left: 90px;
+  text-decoration: none;
+}
+.desk-menu {
+  display: flex;
+  list-style: none;
+  gap: 12px;
+}
+
+.mylogo {
+margin-top: 12px;
+}
+
+.intropage {
+  width: 1440px;
+  height: 916px;
+  left: 0px;
+  top: 1px;
+  background: #FFFFFF;
+  border: 1px solid red;
+  background-image: url(./images/background3.svg);
+  background-position: right;
+}
+
+.principal {
+display: none;}
+
+.intro {
+  height: 122px;
+  width: 920px;
+  border-radius: nullpx;
+}
+
+  .header-mobile {
+    display: none;
+  }
+
+ h1 {
+  height: 846px;
+  width: 1440px;
+  left: 0px;
+  top: 71px;
+  margin-bottom: 0;
+font-weight: 700;
+font-size: 48px;
+line-height: 60px;
+}
+
+.paragraph {
+  height: 98px;
+  width: 920px;
+  left: 0px;
+  margin-top: 0;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+}
+
+.text-introd {
+display: flex;
+flex-direction: column;
+ width: 100%; 
+margin: 359px 260px 289px 260px;
+gap: 0;
+}
+.card {
+display: flex;
+flex-direction: row;
+justify-content: center;
+height: 496px;
+width: 1156px;
+left: 0px;
+top: 0px;
+border-radius: 24px;
+gap: 25px;
+padding: 142px;
+
+}
+
+.tags-button {
+display: flex;
+flex-direction: column;
+gap: 12px;
+}
+
+.card-picture {
+height: 448px;
+width: 544px;
+border: 1px solid rebeccapurple;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 88px;
+}
+
 }
