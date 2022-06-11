@@ -13,15 +13,18 @@
 </head>
 
 <body>
-     <header class="toolbox">
-
-        <a class="mylogo" href="#"><h1>My Logo</h1></a>
-       <nav class="navigation">
-        <img src="./images/hamburguer.png" alt="Menu">
-        </nav>
-        </header>
            <section class="principal">
-               <h2 class="intro">I’m Riziki<br> Glad to see<br> you!</h2>
+            <div class="toolbox">
+                <a class="mylogo" href="#"><h1>My Logo</h1></a>
+             <ul class="navigation">
+                <li class="port bigz"><a href="#">Portfolio</a></li>
+                <li class="aabtt bigz"><a href="#">About</a></li>
+                <li class="cntt bigz"><a href="#">Contact</a></li>
+                <li class="hamb mobzz"><a href="#"><img src="./images/hamburguer.png" alt="Menu"></a></li>
+             </ul>
+            </div>
+            <div class="hheadd">
+               <h2 class="intro">I’m Riziki<br class="mobzz"> Glad to see<br class="mobzz"> you!</h2>
                 <p class="paragraph">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
                 <h3 class="connect">LET’S CONNECT</h3>
                  <ul class="social">
@@ -31,11 +34,16 @@
                            <li><a href="#"><img src="./images/hand.svg" alt="hand"></a></li>
                       <li><a href="#"><img src="./images/github.svg" alt="github"></a></li>
                   </ul>
+                </div>
             </section>
   <div class="grid">
           <section class="card">
-                 <img src="./images/Portfolio2.png" alt="picture">
-                   <h3 class="tonic">TONIC</h3>
+                <div>
+                    <img src="./images/Portfolio2.png" alt="picture" class="mobzz">
+                    <img src="./images/nature.svg" alt="bigpic" class="kloss">
+                </div>
+                 <div>
+                    <h3 class="tonic">TONIC</h3>
                   <ul class="works">
                       <li class="client1">CANOPY</li>
                      <li class="Counter1"><img src="./images/Counter2.png" alt="Role"></li>
@@ -43,14 +51,46 @@
                      <li class="counter2"><img src="./images/Counter1.png" alt="Role"></li>
                       <li class="year">2015</li>
                     </ul>
-                          <p class="texte1">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                          <p class="texte1">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>   
+                   <div class="yoka">
+                    <ul class="tags">
+                          <li class="html-tag">html</li>
+                          <li class="css-tag">css</li>
+                        <li class="javascript-tag">Javascript</li>
+                    </ul>
+                         <button type="submit" class="Mobile-button">See Project</button> 
+                   </div>
+                     
+              </div>
+                   
+           </section>
+                                      <!-- start working on card 1 desktop -->
+              <section class="card-desktop">
+                <div>
+                    <img src="./images/nature.svg" alt="facebook" class="kloss-desktop">
+                </div>
+                 <div>
+                    <h3 class="tonic">TONIC</h3>
+                  <ul class="works">
+                      <li class="client1-desktop">CANOPY</li>
+                     <li class="Counter1"><img src="./images/Counter2.png" alt="Role"></li>
+                     <li class="role-desktop">Back End Dev</li>
+                     <li class="counter2"><img src="./images/Counter1.png" alt="Role"></li>
+                      <li class="year-desktop">2015</li>
+                    </ul>
+                          <p class="texte1-desktop">A daily selection of privately personalized reads; no accounts<br> or sign-ups required.</p>
+                   <div class="yoka1">
                    <ul class="tags">
                           <li class="html-tag">html</li>
                           <li class="css-tag">css</li>
                         <li class="javascript-tag">Javascript</li>
                     </ul>
-                         <button type="button">See Project</button>
+                         <button type="submit" class="desktop-button">See Project</button> 
+                 </div> 
+              </div>
+                   
            </section>
+                             <!-- end working on card 1 -->
 
            <section class="card">
                          <img src="./images/availability.png" alt="picture">
@@ -68,9 +108,36 @@
                           <li class="css-tag">css</li>
                           <li class="javascript-tag">Javascript</li>
                     </ul>
-                         <button type="submit" value="Submit">See Project</button>
+                         <button type="submit" value="Submit" class="card2">See Project</button>
            </section>
-
+                             <!-- start working on card 2 desktop -->
+              <section class="yupp">
+                <div>
+                    <img src="./images/multpost.png" alt="facebook" class="kloss-desktop">
+                </div>
+                 <div>
+                    <h3 class="tonic">Multi-Post Stories</h3>
+                  <ul class="works">
+                      <li class="client1-desktop">FACEBOOK</li>
+                     <li class="Counter1"><img src="./images/Counter2.png" alt="Role"></li>
+                     <li class="role-desktop">Full Stack Dev</li>
+                     <li class="counter2"><img src="./images/Counter1.png" alt="Role"></li>
+                      <li class="year-desktop">2015</li>
+                    </ul>
+                          <p class="texte1-desktop">A daily selection of privately personalized reads; no accounts<br> or sign-ups required.</p>
+                   <div class="tags-button-desktop">
+                   <ul class="tags">
+                          <li class="html-tag">html</li>
+                           <li class="css-tag">Ruby on rails</li>
+                          <li class="css-tag">css</li>
+                        <li class="javascript-tag">Javascript</li>
+                    </ul>
+                         <button type="submit" class="desktop-button">See Project</button> 
+                 </div> 
+              </div>
+                   
+           </section>
+                             <!-- end working on card 2 -->
            <section class="card">
                            <img src="./images/tonic.png" alt="picture">
                            <h3 class="tonic">Mult-Post <br> Stories</h3>
@@ -87,10 +154,37 @@
                            <li class="css-tag">css</li>
                            <li class="javascript-tag">Javascript</li>
                   </ul>
-                         <button type="submit" value="Submit">See Project</button>
+                         <button type="submit" value="Submit" class="card3">See Project</button>
                            
             </section>
-
+                   <!-- start working on card 3 -->
+                   <section class="card-desktop">
+                <div>
+                    <img src="./images/facebook.png" alt="facebook" class="kloss-desktop">
+                </div>
+                 <div>
+                    <h3 class="tonic">Facebook 360</h3>
+                  <ul class="works">
+                      <li class="client1-desktop">FACEBOOK</li>
+                     <li class="Counter1"><img src="./images/Counter2.png" alt="Role"></li>
+                     <li class="role-desktop">Full Stack Dev</li>
+                     <li class="counter2"><img src="./images/Counter1.png" alt="Role"></li>
+                      <li class="year-desktop">2015</li>
+                    </ul>
+                          <p class="texte1-desktop">AExploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
+                   <div class="tags-button-desktop">
+                   <ul class="tags">
+                          <li class="html-tag">html</li>
+                          <li class="Ruby">Ruby on rails</li>
+                          <li class="css-tag">css</li>
+                        <li class="javascript-tag">Javascript</li>
+                    </ul>
+                         <button type="submit" class="desktop-button">See Project</button> 
+                 </div> 
+              </div>
+                   
+           </section>
+                              <!-- end working on 3 -->
            <section class="card">
                            <img src="./images/prof.png" alt="picture">
                            <h3 class="tonic">Mult-Post <br> Sories</h3>
@@ -107,12 +201,41 @@
                              <li class="css-tag">css</li>
                              <li class="javascript-tag">Javascript</li>
                     </ul>
-                            <button type="button">See Project</button>
+                            <button type="button" class="card3">See Project</button>
            </section>
+                        <!-- start working on card 4 desktop -->
+              <section class="yupp">
+                <div>
+                    <img src="./images/uber.png" alt="uber" class="kloss-desktop">
+                </div>
+                 <div>
+                    <h3 class="tonic">Uber Navigation</h3>
+                  <ul class="works">
+                      <li class="client1-desktop">Uber</li>
+                     <li class="Counter1"><img src="./images/Counter2.png" alt="Role"></li>
+                     <li class="role-desktop">Lead Developer</li>
+                     <li class="counter2"><img src="./images/Counter1.png" alt="Role"></li>
+                      <li class="year-desktop">2018</li>
+                    </ul>
+                          <p class="texte1-desktop">A daily selection of privately personalized reads; no accounts<br> or sign-ups required.</p>
+                   <div class="tags-button-desktop">
+                   <ul class="tags">
+                          <li class="html-tag">html</li>
+                             <li class="Ruby">Ruby on rails</li>
+                          <li class="css-tag">css</li>
+                        <li class="javascript-tag">Javascript</li>
+                    </ul>
+                         <button type="submit" class="desktop-button">See Project</button> 
+                 </div> 
+              </div>
+                   
+           </section>
+                             <!-- end working on card 4 -->
         <div class="principal-grig">
             <section class="about-up">
+                <div class="llbb">
                             <h2 class="intro">About<br> Myself</h2>
-                             <p class="paragraph">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                             <p class="paragraph abtp">Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
                             <h3 class="connect">LET’S CONNECT</h3>
                   <ul class="social">
                               <li><a href="#"><img src="./images/Linkedin.svg" alt="linked"></a></li>
@@ -122,14 +245,18 @@
                              <li><a href="#"><img src="./images/github.svg" alt="github"></a></li>
                   </ul>
                               <button class="getbutton" type="button">Get my resume</button>
-                  <ul class="skills">
-                              <li>
-                             <span class="languages-header">Languages</span>
-                             </li>
-                            <li>
-                           <img src="./images/Disabled.png" alt="arrow">
-                            </li>
-                   </ul>
+                
+                </div>
+
+                <div class="rrbb">
+                    <ul class="skills">
+                        <li>
+                       <span class="languages-header">Languages</span>
+                       </li>
+                      <li class="deers">
+                     <img src="./images/Disabled.png" alt="arrow">
+                      </li>
+             </ul>
                   <ul class="languages">
                               <li class="technologies">   
                               <img src="./images/js.png" alt="Javascript-logo">
@@ -144,29 +271,35 @@
                            <h4>CSS</h4>
                            </li>
                           </ul>
-                 <ul class="skills">
-                           <li>
+                 <ul class="skills hjuu">
+                           <li class="poil">
                            <span class="languages-header">Framework</span>
                            </li>
-                               <li>
+                           <li>
                             <img src="./images/Disabled1.png" alt="SEPERATOR">
                            </li>
                  </ul>
-                            <img src="./images/Separatorb.png" alt="separator">
-                <ul class="skills">
-                            <li>
+                            <!-- <img src="./images/Separatorb.png" alt="separator"> -->
+                <ul class="skills hjuu">
+                            <li class="poilzz">
                             <span class="languages-header">Skills</span>
                             </li>
-                             <li>
-                           <img src="./images/Disabled1.png" alt="separator">
-                           </li>
+                            <li>
+                            <img src="./images/Disabled1.png" alt="separator">
+                            </li>
                 </ul>  
-                           <img src="./images/Separatorb.png" alt="separator">
+            </div>
+                           <img src="./images/Separatorb.png" alt="separator" class="mobzz">
             </section>
            <section class="contactme">
                              <h2>Contact me</h2>
-                            <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-                       <form action="https://formspree.io/f/xzbowdww" method="post" class="myform">
+                            <p class="pfp">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+                       <form action="https://formspree.io/f/xzbowdww" method="post">
+                              <!-- <input type="text" name="username" id="username" placeholder="Yeremias" ><br><br>
+                               <input type="email" name="gmail" id="gmail" placeholder="natajayanj14@gmail.com"><br><br>
+                              <textarea name="comments" id="comments">Write your message here</textarea>
+                              </P>
+                              <button type="button" value="Submit">Get it touch</button> -->
                               <ul class="f-list">
                                 <li >
                                     <input type="text" id="name" name="user_name" placeholder="Yeremias" maxlength="30" required>
@@ -177,8 +310,8 @@
                                 <li>
                                     <textarea id="msg" name="user_message"  maxlength="500" required>Write your message here.</textarea>
                                 </li>
-                                <li>
-                                    <button type="submit" class="getbutton">Get in touch</button>
+                                <li class="tuy">
+                                    <button type="submit" class="bbtyt">Get in touch</button>
                                 </li>
                              </ul>
                         </form>
@@ -188,5 +321,3 @@
 </div>
      </div>
   </body>
-
-</html> 

@@ -8,7 +8,7 @@
 ## Built With
 
 - HTML
-- CSS
+- CSS/Query
 - Node.js
 - Webhint,Stylelint
 
