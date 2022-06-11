@@ -190,14 +190,11 @@ button {
   border-top-left-radius: 80px 80px;
   background: #6070ff;
   background-image: url(./images/contactme.svg);
-
   background-position: right 0 top 20%;
   height: 659px;
-
-  background-position: right 0 top 0;
   background-repeat: no-repeat;
-  height: 750px;
 
+  /* height: 750px; */
   width: 310px;
   top: 5410px;
   padding: 114px 24px 0 24px;
@@ -330,12 +327,9 @@ input {
   border-radius: 8px;
   padding: 12px;
   align-self: flex-start;
-
   margin-left: 30px;
-
   outline: none;
   border: none;
-
 }
 
 .f-list {
@@ -383,7 +377,6 @@ form {
 }
 
 .getbutton:hover {
-
   background-color: #4053fc;
 }
 
@@ -559,7 +552,7 @@ form {
     border: 1px solid #dfe1e6;
     padding: 16px;
     border-radius: 16px;
-    margin: 0 auto;
+    margin: auto;
     gap: 20px;
   }
 
@@ -586,7 +579,7 @@ form {
   }
 
   .client1-desktop {
-    width: 75px;
+    width: 90px;
     height: 24px;
     font-style: normal;
     font-weight: 500;
@@ -596,7 +589,7 @@ form {
   }
 
   .role-desktop {
-    width: 120px;
+    width: 150px;
     height: 24px;
     font-style: normal;
     font-weight: 400;
@@ -769,5 +762,4 @@ form {
 
   background-color: #6070ff;
   color: #fff;
-
 }
