@@ -161,6 +161,7 @@ button {
   border-radius: 8px;
   padding: 12px;
   align-self: flex-start;
+  transition: 4s;
 }
 
 .principal-grid {
@@ -431,6 +432,13 @@ form {
     color: #344563;
   }
 
+  @keyframes example {
+    0% { background-color: red; }
+    25% { background-color: yellow; }
+    50% { background-color: blue; }
+    100% { background-color: green; }
+  }
+
   .principal {
     background-image: url(./images/header-shapes.png);
     width: 100%;
@@ -554,6 +562,15 @@ form {
     border-radius: 16px;
     margin: auto;
     gap: 20px;
+    animation-name: cardanimate;
+    animation-duration: 4s;
+  }
+
+  @keyframes cardanimate {
+    0% { background-color: red; }
+    25% { background-color: yellow; }
+    50% { background-color: blue; }
+    100% { background-color: green; }
   }
 
   .desktop-button {
@@ -562,6 +579,7 @@ form {
     border-radius: 8px;
     padding: 12px;
     align-self: flex-start;
+    transition: 4s;
   }
 
   .desktop-button:hover {
@@ -641,6 +659,15 @@ form {
     font-size: 40px;
     line-height: 52px;
     color: #091e42;
+    animation-name: presentation;
+    animation-duration: 4s;
+  }
+
+  @keyframes presentation {
+    0% { background-color: red; }
+    25% { background-color: yellow; }
+    50% { background-color: blue; }
+    100% { background-color: green; }
   }
 
   .abtp {
@@ -754,12 +781,10 @@ form {
     width: 140px;
     outline: none;
     border: none;
+    transition: 4s;
   }
 
   .shape-home {
     display: none;
   }
-
-  background-color: #6070ff;
-  color: #fff;
 }
