@@ -161,6 +161,7 @@ button {
   border-radius: 8px;
   padding: 12px;
   align-self: flex-start;
+  transition: 4s;
 }
 
 .principal-grid {
@@ -562,6 +563,7 @@ form {
     border-radius: 8px;
     padding: 12px;
     align-self: flex-start;
+    transition: 4s;
   }
 
   .desktop-button:hover {
@@ -754,6 +756,7 @@ form {
     width: 140px;
     outline: none;
     border: none;
+    transition: 4s;
   }
 
   .shape-home {
