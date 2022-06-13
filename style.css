@@ -161,6 +161,7 @@ button {
   border-radius: 8px;
   padding: 12px;
   align-self: flex-start;
+  transition: 4s;
 }
 
 .principal-grid {
@@ -533,7 +534,7 @@ form {
   }
 
   .card-desktop {
-    width: 95%;
+    width: 80%;
     height: 496px;
     display: flex;
     flex-direction: row;
@@ -541,11 +542,11 @@ form {
     padding: 16px;
     border-radius: 16px;
     margin: 0 auto;
-    gap: 20px;
+    gap: 30px;
   }
 
   .yupp {
-    width: 95%;
+    width: 80%;
     height: 496px;
     display: flex;
     flex-direction: row-reverse;
@@ -553,7 +554,7 @@ form {
     padding: 16px;
     border-radius: 16px;
     margin: auto;
-    gap: 20px;
+    gap: 30px;
   }
 
   .desktop-button {
@@ -562,6 +563,7 @@ form {
     border-radius: 8px;
     padding: 12px;
     align-self: flex-start;
+    transition: 4s;
   }
 
   .desktop-button:hover {
@@ -754,6 +756,7 @@ form {
     width: 140px;
     outline: none;
     border: none;
+    transition: 4s;
   }
 
   .shape-home {
