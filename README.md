@@ -19,6 +19,10 @@
 ```
 git clone https://git@github.com:Jeanbulambo/Portfolio-repo.git
 ```
+#### - Use the link below to access my webpage
+```
+https://jeanbulambo.github.io/Portfolio-repo/
+```
 #### - Open project directory and open index.html file with your prefered browser
 
 ## Authors
