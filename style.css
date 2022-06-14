@@ -4,7 +4,7 @@
 
 html {
   color: #1a30ff;
-  background-color: #f0f0f0; 
+  background-color: #f0f0f0;
 }
 
 ul {
@@ -405,16 +405,16 @@ form {
 /* MEDIA QUERY */
 
 @media only screen and (min-width: 768px) {
+  html {
+    color: #1a30ff;
+    background-color: #f0f0f0;
+  }
 
- html {
-  color: #1a30ff;
-  background-color: #f0f0f0; 
-}
- body {
+  body {
     max-width: 100%;
     overflow-x: hidden;
     color: #1a30ff;
-    background-color: #f0f0f0; 
+    background-color: #f0f0f0;
   }
 
   a {
@@ -728,7 +728,7 @@ form {
   }
 
   .getbutton {
-    color: #5664e5 ;
+    color: #5664e5;
     background-color: #fff;
     border-radius: 8px;
     padding: 12px;
@@ -765,11 +765,10 @@ form {
   }
 
   .bbtyt {
-    background: #ffffff;
+    background: #fff;
     border-radius: 8px;
     width: 140px;
     outline: none;
-    border-radius: 8px;
     transition: 4s;
     color: #5664e5;
   }
@@ -777,5 +776,4 @@ form {
   .shape-home {
     display: none;
   }
-  
 }
