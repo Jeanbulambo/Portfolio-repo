@@ -2,6 +2,11 @@
   font-family: 'Poppins', sans-serif;
 }
 
+html {
+  color: #1a30ff;
+  background-color: #f0f0f0; 
+}
+
 ul {
   list-style: none;
 }
@@ -14,7 +19,7 @@ ul {
 }
 
 .toolbox h1 {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 20px;
   letter-spacing: 0;
@@ -77,7 +82,7 @@ a:hover {
 }
 
 .principal p {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0;
@@ -85,7 +90,7 @@ a:hover {
 }
 
 .principal h3 {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0;
@@ -308,7 +313,7 @@ input {
   border-radius: nullpx;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 24px;
   line-height: 20px;
 }
 
@@ -369,7 +374,7 @@ form {
   display: none;
 }
 
-.card-desktop-renverse {
+.yupp {
   display: none;
 }
 
@@ -400,9 +405,16 @@ form {
 /* MEDIA QUERY */
 
 @media only screen and (min-width: 768px) {
-  body {
+
+ html {
+  color: #1a30ff;
+  background-color: #f0f0f0; 
+}
+ body {
     max-width: 100%;
     overflow-x: hidden;
+    color: #1a30ff;
+    background-color: #f0f0f0; 
   }
 
   a {
@@ -421,7 +433,7 @@ form {
     display: block;
     font-style: normal;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 24px;
     line-height: 20px;
     align-items: center;
     text-align: center;
@@ -487,7 +499,7 @@ form {
   .principal p {
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 28px;
     color: #344563;
   }
@@ -495,7 +507,7 @@ form {
   .connect {
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 24px;
     color: #7f8cff;
     margin-right: 800px;
@@ -513,11 +525,12 @@ form {
   }
 
   .grid {
-    width: 100%;
+    width: 95%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 88px;
+    justify-content: center;
   }
 
   .tags-button-desktop {
@@ -547,7 +560,7 @@ form {
 
   .yupp {
     width: 80%;
-    height: 496px;
+    height: 495px;
     display: flex;
     flex-direction: row-reverse;
     border: 1px solid #dfe1e6;
@@ -585,7 +598,7 @@ form {
     height: 24px;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 24px;
     color: #344563;
   }
@@ -595,7 +608,7 @@ form {
     height: 24px;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 24px;
     color: #6b778c;
   }
@@ -605,7 +618,7 @@ form {
     height: 24px;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 24px;
     color: #6b778c;
   }
@@ -650,7 +663,7 @@ form {
     height: 102px;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     color: #344563;
   }
@@ -715,8 +728,8 @@ form {
   }
 
   .getbutton {
-    color: #6070ff;
-    background-color: white;
+    color: #5664e5 ;
+    background-color: #fff;
     border-radius: 8px;
     padding: 12px;
     align-self: flex-start;
@@ -728,7 +741,7 @@ form {
     height: 102px;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 28px;
     text-align: center;
     color: #ebebff;
@@ -741,9 +754,10 @@ form {
   }
 
   textarea {
-    border: 1px solid #cfd8dc;
+    border: 1px solid #fff;
     border-radius: 2px;
     width: 447px;
+    color: #736e80;
   }
 
   .tuy {
@@ -751,18 +765,17 @@ form {
   }
 
   .bbtyt {
-    background: #fff;
+    background: #ffffff;
     border-radius: 8px;
     width: 140px;
     outline: none;
-    border: none;
+    border-radius: 8px;
     transition: 4s;
+    color: #5664e5;
   }
 
   .shape-home {
     display: none;
   }
-
-  background-color: #6070ff;
-  color: #fff;
+  
 }
