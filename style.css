@@ -269,12 +269,13 @@ button {
 }
 
 textarea {
-  color: #b3abc5;
   height: 150px;
   width: 280px;
   left: 0;
   top: 0;
   border-radius: 8px;
+  color: #1a30ff;
+  background-color: #f0f0f0;
 }
 
 input {
