@@ -50,6 +50,7 @@ a:hover {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   margin-bottom: 80px;
+  background-color: white;
 }
 
 .intro {
@@ -84,7 +85,7 @@ a:hover {
 .principal p {
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 18px;
   letter-spacing: 0;
   text-align: left;
 }
@@ -136,6 +137,7 @@ a:hover {
   width: 327px;
   padding: 16px;
   border-radius: 16px;
+  background-color: white;
 }
 
 .works {
@@ -182,6 +184,7 @@ button {
   gap: 88px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  background-color: white;
 }
 
 .intro1 {
@@ -199,8 +202,6 @@ button {
   background-position: right 0 top 20%;
   height: 659px;
   background-repeat: no-repeat;
-
-  /* height: 750px; */
   width: 310px;
   top: 5410px;
   padding: 114px 24px 0 24px;
@@ -452,6 +453,7 @@ form {
     border-radius: 16px;
     margin-bottom: 80px;
     background-repeat: no-repeat;
+    background-color: white;
   }
 
   .toolbox {
@@ -499,7 +501,7 @@ form {
   .principal p {
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 16px;
     line-height: 28px;
     color: #344563;
   }
@@ -556,6 +558,7 @@ form {
     border-radius: 16px;
     margin: 0 auto;
     gap: 30px;
+    background-color: white;
   }
 
   .yupp {
@@ -568,6 +571,7 @@ form {
     border-radius: 16px;
     margin: auto;
     gap: 30px;
+    background-color: white;
   }
 
   .desktop-button {
@@ -629,6 +633,7 @@ form {
     border: 1px solid #dfe1e6;
     border-radius: 16px;
     margin: 0 auto;
+    background-color: white;
   }
 
   .contactme {
@@ -663,7 +668,7 @@ form {
     height: 102px;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
     color: #344563;
   }
