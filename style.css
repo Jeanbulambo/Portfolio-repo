@@ -68,10 +68,11 @@ a:hover {
 }
 
 .connect {
-  color: #7f8cff;
   margin-top: 12px;
   margin-bottom: 0;
   padding: 0 24px;
+  color: #1a30ff;
+  background-color: #f0f0f0;
 }
 
 .principal h2 {
@@ -184,7 +185,8 @@ button {
   gap: 88px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  background-color: white;
+  color: #1a30ff;
+  background-color: #f0f0f0;
 }
 
 .intro1 {
@@ -759,10 +761,11 @@ form {
   }
 
   textarea {
-    border: 1px solid #fff;
     border-radius: 2px;
     width: 447px;
     color: #736e80;
+    color: #1a30ff;
+    background-color: #f0f0f0;
   }
 
   .tuy {
