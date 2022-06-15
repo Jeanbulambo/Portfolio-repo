@@ -155,22 +155,20 @@ a:hover {
 }
 
 .tags li {
-  /* background: #ebebff; */
   border-radius: 8px;
   padding: 4px 12px;
-  /* color: #6070ff; */
   margin-right: 20px;
   color: #1a30ff;
   background-color: #f0f0f0;
 }
 
 button {
-  color: #6070ff;
-  background-color: white;
   border-radius: 8px;
   padding: 12px;
   align-self: flex-start;
   transition: 4s;
+  color: #1a30ff;
+  background-color: #f0f0f0;
 }
 
 .principal-grid {
@@ -331,14 +329,14 @@ input {
 }
 
 .getbutton {
-  color: #6070ff;
-  background-color: white;
   border-radius: 8px;
   padding: 12px;
   align-self: flex-start;
   margin-left: 30px;
   outline: none;
   border: none;
+  color: #1a30ff;
+  background-color: #f0f0f0;
 }
 
 .f-list {
@@ -577,12 +575,12 @@ form {
   }
 
   .desktop-button {
-    color: #6070ff;
-    background-color: white;
     border-radius: 8px;
     padding: 12px;
     align-self: flex-start;
     transition: 4s;
+    color: #1a30ff;
+    background-color: #f0f0f0;
   }
 
   .desktop-button:hover {
@@ -635,7 +633,7 @@ form {
     border: 1px solid #dfe1e6;
     border-radius: 16px;
     margin: 0 auto;
-    background-color: white;
+    background-color: #f0f0f0;
   }
 
   .contactme {
@@ -735,12 +733,12 @@ form {
   }
 
   .getbutton {
-    color: #5664e5;
-    background-color: #fff;
     border-radius: 8px;
     padding: 12px;
     align-self: flex-start;
     margin-bottom: 70px;
+    color: #1a30ff;
+    background-color: #f0f0f0;
   }
 
   .pfp {
@@ -772,12 +770,12 @@ form {
   }
 
   .bbtyt {
-    background: #fff;
     border-radius: 8px;
     width: 140px;
     outline: none;
     transition: 4s;
-    color: #5664e5;
+    color: #1a30ff;
+    background-color: #f0f0f0;
   }
 
   .shape-home {
