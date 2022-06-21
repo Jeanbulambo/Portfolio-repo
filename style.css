@@ -160,7 +160,10 @@ a:hover {
   padding: 4px 12px;
   color: #6070ff;
   margin-right: 20px;
+<<<<<<< HEAD
   margin-bottom: 12px;
+=======
+>>>>>>> f36718540354f700dd39415ba5ed894585484b3e
 }
 
 button {
@@ -201,9 +204,17 @@ button {
   background: #6070ff;
   background-image: url(./images/contactme.svg);
   background-position: right 0 top 20%;
+<<<<<<< HEAD
    height: 52.875em;
   background-repeat: no-repeat;
   width: 100%;
+=======
+  height: 659px;
+  background-repeat: no-repeat;
+
+  /* height: 750px; */
+  width: 310px;
+>>>>>>> f36718540354f700dd39415ba5ed894585484b3e
   top: 5410px;
   padding: 114px 24px 0 24px;
   display: flex;
@@ -380,10 +391,13 @@ form {
   display: none;
 }
 
+<<<<<<< HEAD
 .yupp {
   display: none;
 }
 
+=======
+>>>>>>> f36718540354f700dd39415ba5ed894585484b3e
 .bbtyt:hover {
   background-color: #4053fc;
 }
@@ -406,6 +420,7 @@ form {
 
 .card3:hover {
   background-color: #4053fc;
+<<<<<<< HEAD
 } 
 
 .mobile { 
@@ -476,6 +491,9 @@ transform: translateY(8px) rotate(45deg);
 .menu.active .bar:nth-child(3) { 
 transform: translateY(-8px) rotate(-45deg); 
 } 
+=======
+}
+>>>>>>> f36718540354f700dd39415ba5ed894585484b3e
 
 /* MEDIA QUERY */
 
@@ -614,7 +632,11 @@ transform: translateY(-8px) rotate(-45deg);
   }
 
   .card-desktop {
+<<<<<<< HEAD
     width: 95%;
+=======
+    width: 80%;
+>>>>>>> f36718540354f700dd39415ba5ed894585484b3e
     height: 496px;
     display: flex;
     flex-direction: row;
@@ -622,11 +644,19 @@ transform: translateY(-8px) rotate(-45deg);
     padding: 16px;
     border-radius: 16px;
     margin: 0 auto;
+<<<<<<< HEAD
     gap: 20px;
   }
 
   .yupp {
     width: 95%;
+=======
+    gap: 30px;
+  }
+
+  .yupp {
+    width: 80%;
+>>>>>>> f36718540354f700dd39415ba5ed894585484b3e
     height: 496px;
     display: flex;
     flex-direction: row-reverse;
@@ -634,7 +664,11 @@ transform: translateY(-8px) rotate(-45deg);
     padding: 16px;
     border-radius: 16px;
     margin: auto;
+<<<<<<< HEAD
     gap: 20px;
+=======
+    gap: 30px;
+>>>>>>> f36718540354f700dd39415ba5ed894585484b3e
   }
 
   .desktop-button {
@@ -696,7 +730,10 @@ transform: translateY(-8px) rotate(-45deg);
     border: 1px solid #dfe1e6;
     border-radius: 16px;
     margin: 0 auto;
+<<<<<<< HEAD
     margin-bottom: 12px;
+=======
+>>>>>>> f36718540354f700dd39415ba5ed894585484b3e
   }
 
   .contactme {
@@ -843,4 +880,10 @@ transform: translateY(-8px) rotate(-45deg);
   .shape-home {
     display: none;
   }
+<<<<<<< HEAD
+=======
+
+  background-color: #6070ff;
+  color: #fff;
+>>>>>>> f36718540354f700dd39415ba5ed894585484b3e
 }
