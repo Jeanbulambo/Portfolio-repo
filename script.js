@@ -1,3 +1,4 @@
+// Beginning of Mobile Menu 
 const nav = document.querySelector('.mobile');
 const hamb = document.querySelector('.menu');
 

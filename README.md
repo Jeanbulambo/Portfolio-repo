@@ -27,6 +27,9 @@ git clone https://git@github.com:Jeanbulambo/Portfolio-repo.git
 
 - GitHub: [@Jeanbulambo](https://github.com/Jeanbulambo)
 
+👤 **Author2**
+
+-GitHub: [@danigalindo10](https://github.com/danigalindo10)
 
 ## 🤝 Contributing
 
