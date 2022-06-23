@@ -31,6 +31,9 @@ https://jeanbulambo.github.io/Portfolio-repo/
 
 - GitHub: [@Jeanbulambo](https://github.com/Jeanbulambo)
 
+👤 **Author2**
+
+-GitHub: [@danigalindo10](https://github.com/danigalindo10)
 
 ## 🤝 Contributing
 
