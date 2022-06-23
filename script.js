@@ -1,3 +1,4 @@
+// Starting with mobile menu by declaring variables
 const nav = document.querySelector('.mobile');
 const hamb = document.querySelector('.menu');
 
