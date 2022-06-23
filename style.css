@@ -661,6 +661,10 @@ ul {
     transition: all 1s;
   }
 
+  .image-menu {
+    display: none;
+  }
+
   .menu {
     width: 259px;
     height: 40px;
@@ -869,6 +873,62 @@ ul {
     line-height: 52px;
     color: #091e42;
   }
-}
 
-/* this where media query takes end */
+  /* pop up menu classes */
+
+  .closeButton-class {
+    padding: 12px;
+    background-color: #fff;
+    background-image: url(./Allimages/icons/closeIcon.svg);
+    background-repeat: no-repeat;
+    float: right;
+    align-self: flex-end;
+  }
+
+  .header-pp {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .pop-up-class {
+    width: fit-content;
+    height: max-content;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1px 70px;
+    left: 1px;
+  }
+
+  .project-head {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .project-descrip {
+    width: fit-content;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .desk-btn {
+    display: block;
+  }
+
+  .mbtn {
+    display: none;
+  }
+
+  .position-div-pp {
+    display: flex;
+    align-items: baseline;
+  }
+}
