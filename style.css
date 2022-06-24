@@ -307,11 +307,12 @@ ul {
   flex-direction: row;
   align-items: center;
   padding: 12px;
-  gap: 12px;
+  gap: 20px;
   background: #f7f7f9;
   width: 303px;
   height: 66.72px;
   border-radius: 8px;
+  margin-bottom: 20px;
 }
 
 .labout2 {
@@ -442,9 +443,9 @@ ul {
   display: none;
 }
 
-/* pop up menu classes */
+/* pop up window part for mobile version */
 
-.header-pp {
+.headpop {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -459,7 +460,7 @@ ul {
   float: right;
 }
 
-.pop-up-class {
+.popupc {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -504,6 +505,7 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 12px;
 }
 
 .btn-seelive-pp {
@@ -874,7 +876,7 @@ ul {
     color: #091e42;
   }
 
-  /* pop up menu classes */
+  /* pop up window for desktop version */
 
   .closeButton-class {
     padding: 12px;
@@ -885,20 +887,20 @@ ul {
     align-self: flex-end;
   }
 
-  .header-pp {
+  .headpop {
     display: flex;
     justify-content: space-between;
     width: 100%;
   }
 
-  .pop-up-class {
+  .popupc {
     width: fit-content;
     height: max-content;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1px 70px;
+    margin: 1px 14px;
     left: 1px;
   }
 
@@ -930,5 +932,7 @@ ul {
   .position-div-pp {
     display: flex;
     align-items: baseline;
+    margin-top: 100px;
+    margin-left: 12px;
   }
 }

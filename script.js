@@ -6,8 +6,8 @@ hamb.addEventListener('click', () => {
   nav.classList.toggle('active');
 });
 
-// End of Mobile menu
-// Beggining of Popup section
+// End of Mobile menu and starting with Popup part
+// working on popup window
 
 const projectInfo = [
   {
@@ -109,71 +109,63 @@ const projectInfo = [
 
 // see project button
 
-const buttonsee = document.querySelectorAll('.see-project-btn');
-buttonsee.forEach((btn) => {
-  // eslint-disable-next-line no-use-before-define
-  btn.addEventListener('click', makeDiv);
-});
-
-function makeDiv(event) {
-  const popup = document.createElement('div');
-  document.body.append(popup);
-  popup.classList.add('pop-up-class');
+function divfunction(event) {
+  const pop = document.createElement('div');
+  document.body.append(pop);
+  pop.classList.add('popupc');
 
   // adding elements
-  const header = document.createElement('div');
-  header.classList.add('header-pp');
-  const projecthead = document.createElement('h2');
-  projecthead.classList.add('project-head');
-  const projectimg = document.createElement('img');
-  const positiondiv = document.createElement('div');
-  positiondiv.classList.add('position-div-pp');
-  const projectdescrip = document.createElement('p');
-  projectdescrip.classList.add('project-descrip');
-  const langbtndiv = document.createElement('div');
-  langbtndiv.classList.add('lang-btn-div');
-  const projecttech = document.createElement('ul');
-  projecttech.classList.add('lang-container-pp');
-  const projectbtncontainer = document.createElement('div');
+  const hpop = document.createElement('div');
+  hpop.classList.add('headpop');
+  const head = document.createElement('h2');
+  head.classList.add('project-head');
+  const image = document.createElement('img');
+  const divp = document.createElement('div');
+  divp.classList.add('position-div-pp');
+  const descript = document.createElement('p');
+  descript.classList.add('project-descrip');
+  const labd = document.createElement('div');
+  labd.classList.add('lang-btn-div');
+  const prot = document.createElement('ul');
+  prot.classList.add('lang-container-pp');
+  const btcontener = document.createElement('div');
   const btnseelive = document.createElement('a');
   const btnseesource = document.createElement('a');
   const closeButton = document.createElement('button');
   closeButton.classList.add('closeButton-class');
   closeButton.id = 'close-button';
 
-  popup.append(
-    header,
-    projecthead,
+  pop.append(
+    hpop,
+    head,
     closeButton,
-    projectimg,
-    positiondiv,
-    projectdescrip,
-    langbtndiv,
-    projecttech,
-    projectbtncontainer,
+    image,
+    divp,
+    descript,
+    labd,
+    prot,
+    btcontener,
   );
-  header.append(projecthead, closeButton);
-  positiondiv.append(projectdescrip, langbtndiv, projecttech, projectbtncontainer);
-  langbtndiv.append(projecttech, projectbtncontainer);
-  projectbtncontainer.append(btnseelive, btnseesource);
+  hpop.append(head, closeButton);
+  divp.append(descript, labd, prot, btcontener);
+  labd.append(prot, btcontener);
+  btcontener.append(btnseelive, btnseesource);
 
   // adding content to div
   const projectId = parseInt(event.target.id, 10);
-  // eslint-disable-next-line no-console
-  console.log(projectId);
-  projecthead.textContent = projectInfo[projectId].name;
-  projectimg.src = projectInfo[projectId]['featured image'];
-  projectdescrip.textContent = projectInfo[projectId].description;
+  head.textContent = projectInfo[projectId].name;
+  image.src = projectInfo[projectId]['featured image'];
+  descript.textContent = projectInfo[projectId].description;
 
   // loop statement
   for (let i = 0; i < projectInfo[projectId].technologies.length; i += 1) {
     const projectLi = document.createElement('li');
     projectLi.className = 'languages-pp';
     projectLi.textContent = projectInfo[projectId].technologies[i];
-    projecttech.appendChild(projectLi);
+    prot.appendChild(projectLi);
   }
 
-  projectbtncontainer.classList.add('btn-container-class-pp');
+  btcontener.classList.add('btn-container-class-pp');
   btnseelive.href = projectInfo[projectId]['link to live version'];
   btnseelive.classList.add('btn-seelive-pp');
   btnseelive.target = '_blank';
@@ -182,11 +174,13 @@ function makeDiv(event) {
   btnseesource.classList.add('btn-seesource-pp');
   btnseesource.target = '_blank';
   btnseesource.textContent = 'See Source';
-
-  const clickCloseButton = document.getElementById('close-button');
-  clickCloseButton.addEventListener('click', 'closeButtonFunction');
-  // eslint-disable-next-line no-unused-vars
   function closeButtonFunction() {
-    popup.remove();
+    pop.remove();
   }
+  const clickCloseButton = document.getElementById('close-button');
+  clickCloseButton.addEventListener('click', closeButtonFunction);
 }
+const buttonsee = document.querySelectorAll('.see-project-btn');
+buttonsee.forEach((buttonp) => {
+  buttonp.addEventListener('click', divfunction);
+});
