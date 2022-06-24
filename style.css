@@ -453,7 +453,7 @@ ul {
 }
 
 .closeButton-class {
-  padding: 12px;
+  padding: 33px;
   background-color: #fff;
   background-image: url(./Allimages/icons/closeIcon.svg);
   background-repeat: no-repeat;
@@ -879,12 +879,12 @@ ul {
   /* pop up window for desktop version */
 
   .closeButton-class {
-    padding: 12px;
+    padding: 33px;
     background-color: #fff;
     background-image: url(./Allimages/icons/closeIcon.svg);
     background-repeat: no-repeat;
     float: right;
-    align-self: flex-end;
+    /* align-self: flex-end; */
   }
 
   .headpop {
@@ -894,14 +894,14 @@ ul {
   }
 
   .popupc {
-    width: fit-content;
-    height: max-content;
+    width: 75%;
+    height: 821px;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    margin: 1px 14px;
-    left: 1px;
+    left: 45px;
+    margin: 0 145px;
   }
 
   .project-head {
@@ -932,7 +932,7 @@ ul {
   .position-div-pp {
     display: flex;
     align-items: baseline;
-    margin-top: 100px;
+    margin-top: 28px;
     margin-left: 12px;
   }
 }

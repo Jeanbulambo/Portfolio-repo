@@ -9,6 +9,7 @@
 
 - HTML
 - CSS/Query
+- Javascript
 - Node.js
 - Webhint,Stylelint
 
