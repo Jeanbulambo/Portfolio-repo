@@ -884,6 +884,7 @@ ul {
     background-image: url(./Allimages/icons/closeIcon.svg);
     background-repeat: no-repeat;
     float: right;
+
     /* align-self: flex-end; */
   }
 
@@ -898,6 +899,7 @@ ul {
     height: 821px;
     flex-wrap: wrap;
     flex-direction: column;
+
     /* justify-content: center; */
     align-items: center;
     left: 45px;
