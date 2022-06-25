@@ -453,11 +453,15 @@ ul {
 }
 
 .closeButton-class {
-  padding: 33px;
+  padding: 12px;
   background-color: #fff;
   background-image: url(./Allimages/icons/closeIcon.svg);
   background-repeat: no-repeat;
   float: right;
+
+  /* display: flex;
+   align-items: center;
+justify-content: center; */
 }
 
 .popupc {
@@ -504,8 +508,10 @@ ul {
 .btn-container-class-pp {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  margin-top: 12px;
+
+  /* justify-content: space-between; */
+  gap: 12px;
+  margin-top: 48px;
 }
 
 .btn-seelive-pp {
@@ -549,6 +555,9 @@ ul {
 .lang-container-pp {
   display: flex;
   gap: 8px;
+  flex-wrap: wrap;
+
+  /* margin-left: 50px; */
 }
 
 .languages-pp {
@@ -590,8 +599,9 @@ ul {
 
 .menu {
   display: block;
-  position: fixed;
-  margin-right: 30px;
+  position: absolute;
+
+  /* margin-right: 30px; */
   cursor: pointer;
   right: 1rem;
   width: 25px;
@@ -895,10 +905,11 @@ ul {
   }
 
   .popupc {
-    width: 75%;
+    width: 80%;
     height: 821px;
-    flex-wrap: wrap;
+    display: flex;
     flex-direction: column;
+    padding: 3rem;
 
     /* justify-content: center; */
     align-items: center;
@@ -915,12 +926,13 @@ ul {
   }
 
   .project-descrip {
-    width: fit-content;
+    width: 55%;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 30px;
+    margin-right: 30px;
   }
 
   .desk-btn {
@@ -933,8 +945,29 @@ ul {
 
   .position-div-pp {
     display: flex;
-    align-items: baseline;
-    margin-top: 28px;
+    margin-top: 40px;
     margin-left: 12px;
+  }
+
+  body.pop {
+    overflow-y: hidden;
+  }
+
+  body .popupc {
+    overflow-y: scroll;
+  }
+
+  .pop {
+    overflow-y: scroll;
+  }
+
+  .pop-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pop-content img {
+    height: 786px;
+    width: 100%;
   }
 }

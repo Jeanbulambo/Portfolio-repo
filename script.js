@@ -61,7 +61,7 @@ const projectInfo = [
   {
     name: 'Tonic',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     'featured image': './Allimages/images/snaposhot-1-desktop-p.png',
     technologies: ['html', 'css', 'javascript', 'ruby', 'github', 'bootstrap'],
     'link to live version':
@@ -73,7 +73,7 @@ const projectInfo = [
   {
     name: 'Multi-Post Stories',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     'featured image': './Allimages/images/multi-post-portfolio-desktop-1.svg',
     technologies: ['html', 'css', 'javascript', 'ruby', 'github', 'bootstrap'],
     'link to live version':
@@ -85,7 +85,7 @@ const projectInfo = [
   {
     name: 'Facebook 360',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     'featured image': './Allimages/images/facebook-360-desktop.svg',
     technologies: ['html', 'css', 'javascript', 'ruby', 'github', 'bootstrap'],
     'link to live version':
@@ -97,7 +97,7 @@ const projectInfo = [
   {
     name: 'Uber Navigation',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     'featured image': './Allimages/images/uber-nav-desktop.svg',
     technologies: ['html', 'css', 'javascript', 'ruby', 'github', 'bootstrap'],
     'link to live version':
@@ -115,8 +115,13 @@ function divfunction(event) {
   pop.classList.add('popupc');
 
   // adding elements
+  // const mainwrap =document.createElement('div');
+  // mainwrap.classList.add('pop');
+  // mainwrap.append(pop);
   const hpop = document.createElement('div');
   hpop.classList.add('headpop');
+  const content = document.createElement('div');
+  content.classList.add('pop-content');
   const head = document.createElement('h2');
   head.classList.add('project-head');
   const image = document.createElement('img');
@@ -137,15 +142,15 @@ function divfunction(event) {
 
   pop.append(
     hpop,
+    content,
     head,
     closeButton,
-    image,
-    divp,
     descript,
     labd,
     prot,
     btcontener,
   );
+  content.append(image, divp);
   hpop.append(head, closeButton);
   divp.append(descript, labd, prot, btcontener);
   labd.append(prot, btcontener);
