@@ -191,3 +191,6 @@ buttonsee.forEach((buttonp) => {
 });
 
 // End of pop-up window
+
+// Validation Form Section
+const formV = document.getElementsByClassName(form-submition);
