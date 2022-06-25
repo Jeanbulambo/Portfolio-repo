@@ -9,6 +9,7 @@
 
 - HTML
 - CSS/Query
+- Javascript
 - Node.js
 - Webhint,Stylelint
 
@@ -39,7 +40,7 @@ https://jeanbulambo.github.io/Portfolio-repo/
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Jeanbulambo/Portfolio-repo/issues).
 
 ## Show your support
 
