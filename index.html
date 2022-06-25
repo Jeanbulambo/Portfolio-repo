@@ -292,14 +292,15 @@
                     need built or a project that needs coding. I’d love to help with it </p>
             </article>
             <article class="form-article">
-                <form action="https://formspree.io/f/xzbowdww" method="POST" class="contact-form">
+                <form action="https://formspree.io/f/xzbowdww" method="post" class="contact-form" id="form-submission">
                     <label for="name"></label>
-                    <input type="text" name="name" placeholder="Write name." required maxlength="30" id="name">
+                    <input type="text" name="name" placeholder="Write name." required maxlength="30" id="name" onchange="getFormData()">
                     <label for="email"></label>
-                    <input type="email" name="email" placeholder="example@gmail.com" required id="email">
+                    <input type="email" name="email" placeholder="example@gmail.com" required id="email" onchange="getFormData()">
                     <label for="comments"></label>
-                    <textarea name="message" id="comments" cols="30" rows="10" placeholder="write your message in here" maxlength="500" required></textarea>
-                    <button type="submit" class="getin" id="form-submission">Get It Touch</button>
+                    <textarea name="message" id="comments" cols="30" rows="10" placeholder="write your message in here" maxlength="500" onchange="getFormData()" required></textarea>
+                    <button type="submit" class="getin" id="form-submissi">Get It Touch</button>
+                  <small></small>
                 </form>
                 <img src="./Allimages/images/contact-bottom.png" alt="black bar" class="indicator">
             </article>
