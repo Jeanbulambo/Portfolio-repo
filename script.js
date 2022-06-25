@@ -189,3 +189,5 @@ const buttonsee = document.querySelectorAll('.see-project-btn');
 buttonsee.forEach((buttonp) => {
   buttonp.addEventListener('click', divfunction);
 });
+
+// End of pop-up window
