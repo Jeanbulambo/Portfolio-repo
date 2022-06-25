@@ -193,4 +193,24 @@ buttonsee.forEach((buttonp) => {
 // End of pop-up window
 
 // Validation Form Section
-const formV = document.getElementsByClassName(form-submition);
+const formvalidation = document.querySelector('.contact-form');
+const email = document.getElementById('email');
+const error = document.querySelector('small');
+formvalidation.addEventListener('submit', (e) => {
+  const message = [];
+
+  if (email.value !== email.value.toLowerCase()) {
+    message.push('Kindly, enter email in lowcase instead.');
+  }
+
+  if (message.length > 0) {
+    e.preventDefault();
+    error.innerHTML = message.join('<br/><br/');
+    email.style.border = '4px solid red';
+    error.style.borderRadius = '5px';
+    error.style.backgroundColor = 'yellow';
+    error.style.fontSize = '24px';
+    error.style.color = 'red';
+  }
+});
+// End of validation form
