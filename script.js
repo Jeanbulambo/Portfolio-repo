@@ -13,7 +13,7 @@ const projectInfo = [
   {
     name: 'Awesome books',
     description:
-      "Awesome books is a simple website that allows users to add/Remove books from a list using ESE6. It also displays books get from stored in a local storage.",
+      'Awesome books is a simple website that allows users to add/Remove books from a list using ESE6. It also displays books get from stored in a local storage.',
     'featured image': './Allimages/images/awesome.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
@@ -25,7 +25,7 @@ const projectInfo = [
   {
     name: 'Leaderboard',
     description:
-      "This basic web allows users to add their names name and his score then displays the list of participant that have taken part with their scores.",
+      'This basic web allows users to add their names name and his score then displays the list of participant that have taken part with their scores.',
     'featured image': './Allimages/images/leader.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
@@ -37,7 +37,7 @@ const projectInfo = [
   {
     name: 'Todo list',
     description:
-      "Welcome to to do list. A web App, where you can make a list of tasks you want to and then you can follow them. Once you have completed a task, you can mark it as completed also you can decide to delete itself or both completed and completed",
+      'Welcome to to do list. A web App, where you can make a list of tasks you want to and then you can follow them. Once you have completed a task, you can mark it as completed also you can decide to delete itself or both completed and completed',
     'featured image': './Allimages/images/todo.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
@@ -61,7 +61,7 @@ const projectInfo = [
   {
     name: 'Awesome Books',
     description:
-      "Awesome books is a simple website that allows users to add/Remove books from a list using ESE6. It also displays books get from stored in a local storage.",
+      'Awesome books is a simple website that allows users to add/Remove books from a list using ESE6. It also displays books get from stored in a local storage.',
     'featured image': './Allimages/images/awesome.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
@@ -73,7 +73,7 @@ const projectInfo = [
   {
     name: 'Leaderboard',
     description:
-      "This basic web allows users to add their names name and his score then displays the list of participant that have taken part with their scores. This score allows this application do display the ranking of the leader",
+      'This basic web allows users to add their names name and his score then displays the list of participant that have taken part with their scores. This score allows this application do display the ranking of the leader',
     'featured image': './Allimages/images/leader.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
@@ -85,7 +85,7 @@ const projectInfo = [
   {
     name: 'Todo List',
     description:
-      "Welcome to to do list. A web App, where you can make a list of tasks you want to and then you can follow them. Once you have completed a task, you can mark it as completed also you can decide to delete itself or both completed and completed",
+      'Welcome to to do list. A web App, where you can make a list of tasks you want to and then you can follow them. Once you have completed a task, you can mark it as completed also you can decide to delete itself or both completed and completed',
     'featured image': './Allimages/images/todo.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':

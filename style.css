@@ -1,4 +1,4 @@
-npx eslint@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 body {
   background-color: #fff;
@@ -172,6 +172,7 @@ header {
   font-size: 22px;
   line-height: 32px;
   color: #344563;
+
   /* width: 295px; */
 }
 
@@ -852,6 +853,7 @@ a {
     grid-template-columns: 40% 60%;
     grid-template-rows: auto;
     padding: 50px 142px;
+
     /* align-items: baseline; */
   }
 
@@ -863,7 +865,6 @@ a {
   }
 
   .myself {
-
     display: flex;
     justify-items: center;
     justify-content: center;
@@ -1007,7 +1008,6 @@ a {
     flex-direction: column;
     padding: 3rem;
 
-
     /* justify-content: center; */
     align-items: center;
     left: 17px;
@@ -1070,7 +1070,6 @@ a {
 
   .footer {
     border-top: 4px solid black !important;
-    ;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1085,5 +1084,4 @@ a {
   .indicator {
     display: none !important;
   }
-
 }
