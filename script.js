@@ -14,7 +14,7 @@ const projectInfo = [
     name: 'Awesome books',
     description:
       'Awesome books is a simple website that allows users to add/Remove books from a list using ESE6. It also displays books get from stored in a local storage.',
-    'featured image': './Allimages/images/awesome.png',
+    'featured image': './Allimages/images/Image004.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
       'https://jeanbulambo.github.io/Awesom-books/',
@@ -25,32 +25,32 @@ const projectInfo = [
   {
     name: 'Leaderboard',
     description:
-      'This basic web allows users to add their names name and his score then displays the list of participant that have taken part with their scores.',
-    'featured image': './Allimages/images/leader.png',
+      'This basic web allows users to add their names and scores then displays the list of participants that have taken part by ranking them based on their scores.',
+    'featured image': './Allimages/images/Image002.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
-      ' https://jeanbulambo.github.io/Awesom-books/',
+      ' https://wondrous-swan-93d3f1.netlify.app',
     'link to source':
-      'git clone git@github.com:Jeanbulambo/Awesom-books.git',
+      'https://github.com/Jeanbulambo/Leaderboard',
   },
 
   {
     name: 'Todo list',
     description:
       'Welcome to to do list. A web App, where you can make a list of tasks you want to and then you can follow them. Once you have completed a task, you can mark it as completed also you can decide to delete itself or both completed and completed',
-    'featured image': './Allimages/images/todo.png',
+    'featured image': './Allimages/images/Image03.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
       'https://stupendous-crisp-251e90.netlify.app',
     'link to source':
-      'https://stupendous-crisp-251e90.netlify.app',
+      'https://github.com/Jeanbulambo/Todolist',
   },
 
   {
     name: 'Books store',
     description:
       "It's a mobile library that allows users to add to a book as well as his author by cathegories. User can also see comments if they are after listing the books",
-    'featured image': './Allimages/images/Image05.png',
+    'featured image': './Allimages/images/awesome02.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
       'https://jeanbulambo.github.io/Portfolio-repo/',
@@ -62,7 +62,7 @@ const projectInfo = [
     name: 'Awesome Books',
     description:
       'Awesome books is a simple website that allows users to add/Remove books from a list using ESE6. It also displays books get from stored in a local storage.',
-    'featured image': './Allimages/images/awesome.png',
+    'featured image': './Allimages/images/Image004.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
       'https://jeanbulambo.github.io/Awesom-books/',
@@ -74,7 +74,7 @@ const projectInfo = [
     name: 'Leaderboard',
     description:
       'This basic web allows users to add their names name and his score then displays the list of participant that have taken part with their scores. This score allows this application do display the ranking of the leader',
-    'featured image': './Allimages/images/leader.png',
+    'featured image': './Allimages/images/Image002.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
       'https://wondrous-swan-93d3f1.netlify.app',
@@ -86,19 +86,19 @@ const projectInfo = [
     name: 'Todo List',
     description:
       'Welcome to to do list. A web App, where you can make a list of tasks you want to and then you can follow them. Once you have completed a task, you can mark it as completed also you can decide to delete itself or both completed and completed',
-    'featured image': './Allimages/images/todo.png',
+    'featured image': './Allimages/images/Image03.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
       'https://stupendous-crisp-251e90.netlify.app',
     'link to source':
-      'https://stupendous-crisp-251e90.netlify.app',
+      'https://github.com/Jeanbulambo/Todolist',
   },
 
   {
     name: 'Book store',
     description:
       "It's a mobile library that allows users to add to a book as well as his author by cathegories. User can also see comments if they are after listing the books",
-    'featured image': './Allimages/images/Image05.png',
+    'featured image': './Allimages/images/awesome02.png',
     technologies: ['React', 'Css', 'javascript'],
     'link to live version':
       'https://tranquil-brigadeiros-8c9876.netlify.app',
