@@ -7,13 +7,30 @@ hamb.addEventListener('click', () => {
 });
 
 // End of Mobile menu and starting with Popup part
+// Make sticky navigation
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
 // working on popup window
 
 const projectInfo = [
   {
     name: 'Awesome books',
     description:
-      'Awesome books is a simple website that allows users to add/Remove books from a list using ESE6. It also displays books get from stored in a local storage.',
+      'Awesome books is a simple website that allows users to add/remove books from a list using ESE6. It also displays books get from stored in a local storage.',
     'featured image': './Allimages/images/Image004.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
@@ -25,7 +42,7 @@ const projectInfo = [
   {
     name: 'Leaderboard',
     description:
-      'This basic web allows users to add their names and scores then displays the list of participants that have taken part by ranking them based on their scores.',
+      'This basic web allows users to add their names and scores and then displays the list of participants that have taken part by ranking them based on the scores.',
     'featured image': './Allimages/images/Image002.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
@@ -37,7 +54,7 @@ const projectInfo = [
   {
     name: 'Todo list',
     description:
-      'Welcome to to do list. A web App, where you can make a list of tasks you want to and then you can follow them. Once you have completed a task, you can mark it as completed also you can decide to delete itself or both completed and completed',
+      'Welcome to the to-do list. A web App, where you can make a list of tasks you want to do and then you can follow them. Once you have completed a task, you can mark it as completed also you can decide to delete itself or both completed and completed',
     'featured image': './Allimages/images/Image03.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
@@ -49,7 +66,7 @@ const projectInfo = [
   {
     name: 'Books store',
     description:
-      "It's a mobile library that allows users to add to a book as well as his author by cathegories. User can also see comments if they are after listing the books",
+      "It's a mobile library that allows users to add to a book as well as its author by categories. Users can also see comments if they are after listing the books",
     'featured image': './Allimages/images/awesome02.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
@@ -61,7 +78,7 @@ const projectInfo = [
   {
     name: 'Awesome Books',
     description:
-      'Awesome books is a simple website that allows users to add/Remove books from a list using ESE6. It also displays books get from stored in a local storage.',
+      'Awesome books is a simple website that allows users to add or remove books from a list using ESE6. It also displays books get from stored in a local storage.',
     'featured image': './Allimages/images/Image004.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
@@ -73,7 +90,7 @@ const projectInfo = [
   {
     name: 'Leaderboard',
     description:
-      'This basic web allows users to add their names name and his score then displays the list of participant that have taken part with their scores. This score allows this application do display the ranking of the leader',
+      'This basic web allows users to add their names and scores then displays the list of participants that have taken part with their scores. This score allows this application to display the ranking of the leader',
     'featured image': './Allimages/images/Image002.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
@@ -85,7 +102,7 @@ const projectInfo = [
   {
     name: 'Todo List',
     description:
-      'Welcome to to do list. A web App, where you can make a list of tasks you want to and then you can follow them. Once you have completed a task, you can mark it as completed also you can decide to delete itself or both completed and completed',
+      'Welcome the to-do list. A web App, where you can make a list of tasks you want to do, and then you can follow them. Once you have completed a task, you can mark it as completed also you can decide to delete itself or both completed and completed',
     'featured image': './Allimages/images/Image03.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
@@ -97,7 +114,7 @@ const projectInfo = [
   {
     name: 'Book store',
     description:
-      "It's a mobile library that allows users to add to a book as well as his author by cathegories. User can also see comments if they are after listing the books",
+      "It's a mobile library that allows users to add to a book as well as its author by category. Users can also see comments if they are after listing the books",
     'featured image': './Allimages/images/awesome02.png',
     technologies: ['React', 'Css', 'javascript'],
     'link to live version':

@@ -37,6 +37,13 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 58px 24px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .desktop-nav {
@@ -709,6 +716,7 @@ a {
     height: 4.5em;
     justify-content: space-between;
     align-items: baseline;
+    border-bottom: 1px solid #e8e8e8;
   }
 
   .logo {
@@ -717,6 +725,8 @@ a {
     font-style: normal;
     margin-left: 155px;
     transition: all 1s;
+    font-weight: 500;
+    color: #344563;
   }
 
   .image-menu {
@@ -1084,4 +1094,10 @@ a {
   .indicator {
     display: none !important;
   }
+
+  .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 }
