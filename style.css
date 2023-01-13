@@ -106,7 +106,7 @@ header {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   justify-items: center;
-  margin: 10px;
+  margin: 38px;
   gap: 10px;
 }
 
@@ -907,7 +907,7 @@ header a:hover {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    gap: 24px;
+    gap: 14px;
     padding-top: 24px;
   }
 
