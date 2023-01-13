@@ -56,7 +56,7 @@ const projectInfo = [
   {
     name: 'Todo list',
     description:
-      'Welcome to the to-do list. A web App, where you can make a list of tasks you want to do and then you can follow them. Once you have completed a task, you can mark it as completed also you can decide to delete itself or both completed and completed.',
+      'Welcome to the to-do list. A web App, where you can make a list of tasks you want to do and then you can follow them.',
     'featured image': './Allimages/images/Image03.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':

@@ -476,9 +476,9 @@ ul {
   padding: 16px;
   gap: 12px;
   position: fixed;
-  width: 596px;
+  width: 395px;
   height: 766px;
-  left: calc(50% - 589px / 2);
+  left: calc(50% - 390px / 2);
   top: 20px;
   background: #fff;
   border: 1px solid #dfe1e6;
@@ -540,7 +540,7 @@ a {
   font-size: 15px;
   line-height: 20px;
   text-decoration: none;
-  margin-left: 100px;
+  margin-left: 31px;
 }
 
 .btn-seesource-pp {
@@ -745,12 +745,11 @@ display: none;
 .topnav {
 display: block;
 }
-.makeDisappear{
-    display:none;
-    position: fixed;
-  top: 0;
-  width: 100%;
-    }
+
+.pop-content img {
+width: 326px;
+}
+
 @media screen and (min-width: 768px) {
 
   .tm {
