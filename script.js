@@ -1,14 +1,16 @@
-const nav = document.querySelector('.mobile');
-const hamb = document.querySelector('.menu');
-
-hamb.addEventListener('click', () => {
-  hamb.classList.toggle('active');
-  nav.classList.toggle('active');
-});
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
 
 // End of Mobile menu and starting with Popup part
 // Make sticky navigation
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {mySticky()};
 
 // Get the navbar
 var navbar = document.getElementById("navbar");
@@ -17,7 +19,7 @@ var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
 // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
+function mySticky() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
   } else {
