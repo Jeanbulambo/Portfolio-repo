@@ -705,6 +705,7 @@ a {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: 'Poppins', sans-serif;
   display: block;
 }
 
@@ -720,6 +721,7 @@ a {
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
+  font-family: 'Poppins', sans-serif;
   background-color: rgb(35, 16, 239);
   color: black;
 }
@@ -728,14 +730,17 @@ a {
 a .active {
   background-color: whitesmoke;
   color: rgb(35, 16, 239);
+  font-family: 'Poppins', sans-serif;
 }
 
 #mylogm a {
 color: black;
+font-family: 'Poppins', sans-serif;
 }
 
 #mylogmm {
 color: black;
+font-family: 'Poppins', sans-serif;
 }
 
   header {
@@ -794,12 +799,14 @@ header li {
     list-style: none;
     display: inline-block;
     padding: 0 20px;
+    font-family: 'Poppins', sans-serif;
 }
 
 header a {
     text-decoration: none;
     color: #555;
     transition: all 0.3s ease 0s;
+    font-family: 'Poppins', sans-serif;
 }
 
 header a:hover {

@@ -32,7 +32,7 @@ const projectInfo = [
   {
     name: 'Awesome books',
     description:
-      'Awesome books is a simple website that allows users to add/remove books from a list using ES6. It also displays books get from stored in a local storage.',
+      'Awesome books is a simple website that allows users to add/remove books from a list using ES6. It displays books stored in a local storage.',
     'featured image': './Allimages/images/Image004.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
@@ -56,7 +56,7 @@ const projectInfo = [
   {
     name: 'Todo list',
     description:
-      'Welcome to the to-do list. A web App, where you can make a list of tasks you want to do and then you can follow them.',
+      'Welcome to the to-do list. A web App, where you can make a list of tasks you want to complete and then you can follow them.',
     'featured image': './Allimages/images/Image03.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
@@ -80,7 +80,7 @@ const projectInfo = [
   {
     name: 'Awesome Books',
     description:
-      'Awesome books is a simple website that allows users to add and remove books from a list using ES6. It also displays books get from stored in a local storage.',
+      'Awesome books is a simple website that allows users to add/remove books from a list using ES6. It displays books stored in a local storage.',
     'featured image': './Allimages/images/Image004.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
@@ -104,7 +104,7 @@ const projectInfo = [
   {
     name: 'Todo List',
     description:
-      'Welcome to the to-do list. A web App, where you can make a list of tasks you want to complete, and then you can follow them. Once you have completed a task, you can mark it as completed and also you can decide to delete both completed and completed.',
+      'Welcome to the to-do list. A web App, where you can make a list of tasks you want to complete and then you can follow them.',
     'featured image': './Allimages/images/Image03.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
