@@ -1,20 +1,75 @@
-const nav = document.querySelector('.mobile');
-const hamb = document.querySelector('.menu');
-
-hamb.addEventListener('click', () => {
-  hamb.classList.toggle('active');
-  nav.classList.toggle('active');
-});
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
 
 // End of Mobile menu and starting with Popup part
+// Make sticky navigation
+window.onscroll = function() {mySticky()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function mySticky() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
 // working on popup window
 
 const projectInfo = [
   {
-    name: 'Tonic',
+    name: 'Awesome books',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    'featured image': './Allimages/images/tonic-page-1.png',
+      'Awesome books is a simple website that allows users to add/remove books from a list using ES6. It displays books stored in a local storage.',
+    'featured image': './Allimages/images/Image004.png',
+    technologies: ['html', 'css', 'javascript'],
+    'link to live version':
+      'https://jeanbulambo.github.io/Awesom-books/',
+    'link to source':
+      'https://github.com/Jeanbulambo/Awesom-books',
+  },
+
+  {
+    name: 'Leaderboard',
+    description:
+      'This basic web allows users to add names and scores and then displays the ranking of players based on their scores.',
+    'featured image': './Allimages/images/Image002.png',
+    technologies: ['html', 'css', 'javascript'],
+    'link to live version':
+      ' https://wondrous-swan-93d3f1.netlify.app',
+    'link to source':
+      'https://github.com/Jeanbulambo/Leaderboard',
+  },
+
+  {
+    name: 'Todo list',
+    description:
+      'Welcome to the to-do list. A web App, where you can make a list of tasks you want to complete and then you can follow them.',
+    'featured image': './Allimages/images/Image03.png',
+    technologies: ['html', 'css', 'javascript'],
+    'link to live version':
+      'https://stupendous-crisp-251e90.netlify.app',
+    'link to source':
+      'https://github.com/Jeanbulambo/Todolist',
+  },
+
+  {
+    name: 'Books store',
+    description:
+      "It's a mobile library that allows users to add book as well as its author by categories. Users can also see comments if they are available.",
+    'featured image': './Allimages/images/awesome02.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
       'https://jeanbulambo.github.io/Portfolio-repo/',
@@ -23,87 +78,51 @@ const projectInfo = [
   },
 
   {
-    name: 'Multi-Post Stories',
+    name: 'Awesome Books',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    'featured image': './Allimages/images/Multi-post-stories.png',
+      'Awesome books is a simple website that allows users to add/remove books from a list using ES6. It displays books stored in a local storage.',
+    'featured image': './Allimages/images/Image004.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
-      'https://jeanbulambo.github.io/Portfolio-repo/',
+      'https://jeanbulambo.github.io/Awesom-books/',
     'link to source':
-      'https://github.com/Jeanbulambo/Portfolio-repo.git',
+      'https://github.com/Jeanbulambo/Awesom-books',
   },
 
   {
-    name: 'Tonic',
+    name: 'Leaderboard',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    'featured image': './Allimages/images/Tonic-page3.png',
+      'This basic web allows users to add names and scores and then displays the ranking of players based on their scores.',
+    'featured image': './Allimages/images/Image002.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
-      'https://jeanbulambo.github.io/Portfolio-repo/',
+      'https://wondrous-swan-93d3f1.netlify.app',
     'link to source':
-      'https://github.com/Jeanbulambo/Portfolio-repo.git',
+      'https://github.com/Jeanbulambo/Leaderboard',
   },
 
   {
-    name: 'Multi-Post Stories',
+    name: 'Todo List',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-    'featured image': './Allimages/images/multi-post-stories-2.png',
+      'Welcome to the to-do list. A web App, where you can make a list of tasks you want to complete and then you can follow them.',
+    'featured image': './Allimages/images/Image03.png',
     technologies: ['html', 'css', 'javascript'],
     'link to live version':
-      'https://jeanbulambo.github.io/Portfolio-repo/',
+      'https://stupendous-crisp-251e90.netlify.app',
     'link to source':
-      'https://github.com/Jeanbulambo/Portfolio-repo.git',
+      'https://github.com/Jeanbulambo/Todolist',
   },
 
   {
-    name: 'Tonic',
+    name: 'Book store',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    'featured image': './Allimages/images/snaposhot-1-desktop-p.png',
-    technologies: ['html', 'css', 'javascript', 'ruby', 'github', 'bootstrap'],
+      "It's a mobile library that allows users to add a book as well as its author by category. Users can also see comments if they are available.",
+    'featured image': './Allimages/images/awesome02.png',
+    technologies: ['React', 'Css', 'javascript'],
     'link to live version':
-      'https://jeanbulambo.github.io/Portfolio-repo/',
+      'https://tranquil-brigadeiros-8c9876.netlify.app',
     'link to source':
-      'https://github.com/Jeanbulambo/Portfolio-repo.git',
-  },
-
-  {
-    name: 'Multi-Post Stories',
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    'featured image': './Allimages/images/multi-post-portfolio-desktop-1.svg',
-    technologies: ['html', 'css', 'javascript', 'ruby', 'github', 'bootstrap'],
-    'link to live version':
-      'https://jeanbulambo.github.io/Portfolio-repo/',
-    'link to source':
-      'https://github.com/Jeanbulambo/Portfolio-repo.git',
-  },
-
-  {
-    name: 'Facebook 360',
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    'featured image': './Allimages/images/facebook-360-desktop.svg',
-    technologies: ['html', 'css', 'javascript', 'ruby', 'github', 'bootstrap'],
-    'link to live version':
-      'https://jeanbulambo.github.io/Portfolio-repo/',
-    'link to source':
-      'https://github.com/Jeanbulambo/Portfolio-repo.git',
-  },
-
-  {
-    name: 'Uber Navigation',
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    'featured image': './Allimages/images/uber-nav-desktop.svg',
-    technologies: ['html', 'css', 'javascript', 'ruby', 'github', 'bootstrap'],
-    'link to live version':
-      'https://jeanbulambo.github.io/Portfolio-repo/',
-    'link to source':
-      'https://github.com/Jeanbulambo/Portfolio-repo.git',
+      'https://github.com/Jeanbulambo/Bookstore',
   },
 ];
 
